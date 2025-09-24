@@ -11,9 +11,6 @@ Advanced CGPA calculator with analytics, projections for CUET students.
 7. Copy to Clipboard - Copy summary data easily
 8. Download result as pdf
 
-**⭐Two versions based on your preference.
-More about them in the [*release*](https://github.com/RyukNafi/CGPA-Calculator-Pro/releases) tab.**
-
 **⭐Installation Steps:**
 1. Head over to the [*release*](https://github.com/RyukNafi/CGPA-Calculator-Pro/releases) tab and download your desired version.
 2. Extract the content of the zip file anywhere in your PC.
