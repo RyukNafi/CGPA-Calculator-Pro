@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CGPA Calculator Pro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <h2>CGPA Calculator Pro</h2>
+      <div class="header-controls">
+        <button id="settingsBtn" class="btn-icon" title="Settings">Settings</button>
+      </div>
+    </div>
+    
+    <div class="overview-cards">
+      <div class="card">
+        <div class="card-title">Overall CGPA</div>
+        <div class="card-value" id="overallCGPA">0.00</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Total Credits</div>
+        <div class="card-value" id="totalCredits">0</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Semesters</div>
+        <div class="card-value" id="totalSemesters">0</div>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <div class="tab-navigation">
+      <button class="tab-btn active" data-tab="results">Results</button>
+      <button class="tab-btn" data-tab="graph">Trend</button>
+      <button class="tab-btn" data-tab="projection">Projection</button>
+      <button class="tab-btn" data-tab="summary">Summary</button>
+    </div>
+    
+    <div class="tab-content">
+      <!-- Results Tab -->
+      <div id="results-tab" class="tab-pane active">
+        <div id="results"></div>
+        <div class="button-container">
+          <button id="reloadBtn" class="btn-reload">Reload Data</button>
+          <button id="downloadBtn" class="btn-download">Download PDF</button>
+          <button id="copyBtn" class="btn-copy">Copy Summary</button>
+        </div>
+      </div>
+      
+      <!-- Graph Tab -->
+      <div id="graph-tab" class="tab-pane">
+        <div class="graph-container">
+          <canvas id="gpaChart" width="320" height="200"></canvas>
+        </div>
+        <div class="graph-stats" id="graphStats"></div>
+      </div>
+      
+      <!-- Projection Tab -->
+      <div id="projection-tab" class="tab-pane">
+        <div class="projection-controls">
+          <h3>Grade Projection</h3>
+          <div class="input-group">
+            <label>Target CGPA:</label>
+            <input type="number" id="targetCGPA" min="0" max="4.0" step="0.01" value="3.5">
+          </div>
+          <div class="input-group">
+            <label>Remaining Credits:</label>
+            <input type="number" id="remainingCredits" min="1" value="15">
+          </div>
+          <button id="calculateProjection" class="btn-calculate">Calculate</button>
+        </div>
+        <div class="projection-result" id="projectionResult"></div>
+      </div>
+      
+      <!-- Summary Tab -->
+      <div id="summary-tab" class="tab-pane">
+        <div class="summary-section">
+          <h3>Semester Credit Summary</h3>
+          <div id="creditSummary"></div>
+        </div>
+        <div class="summary-section">
+          <h3>Performance Highlights</h3>
+          <div id="performanceHighlights"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Settings Modal -->
+  <div id="settingsModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Settings</h3>
+        <button class="close-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="setting-group">
+          <label>Theme:</label>
+          <select id="themeSelect">
+            <option value="auto">Auto (System)</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+        </div>
+        <div class="setting-group">
+          <label>
+            <input type="checkbox" id="encryptionToggle"> Enable data encryption
+          </label>
+          <small>Encrypts your grade data for added privacy</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Libraries -->
+  <script src="jspdf.umd.min.js"></script>
+  <script src="chart.min.js"></script>
+  
+  <!-- Main Script -->
+  <script src="popup.js"></script>
+</body>
+</html>
