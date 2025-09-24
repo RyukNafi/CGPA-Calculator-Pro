@@ -1,7 +1,7 @@
 # CGPA Calculator Pro
 Advanced CGPA calculator with analytics, projections for CUET students.
 
-⭐Key Features:
+**⭐Key Features:**
 1. Overall CGPA Calculation - Shows cumulative CGPA across all semesters
 2. GPA Trend Graph - Interactive line chart showing semester performance
 3. Theme Customization - Dark/light/auto themes with system preference detection
@@ -11,16 +11,17 @@ Advanced CGPA calculator with analytics, projections for CUET students.
 7. Copy to Clipboard - Copy summary data easily
 8. Download result as pdf
 
-⭐Two versions based on your preference. More about them in the release tab.
+**⭐Two versions based on your preference.
+More about them in the [*release*](https://github.com/RyukNafi/CGPA-Calculator-Pro/releases) tab.**
 
-⭐Installation Steps:
-1. Head over to the release tab and download your desired version.
+**⭐Installation Steps:**
+1. Head over to the [*release*](https://github.com/RyukNafi/CGPA-Calculator-Pro/releases) tab and download your desired version.
 2. Extract the content of the zip file anywhere in your PC.
 3. Open Chrome and head over to extension tab.
 4. Enable developer mode (top right corner).
 5. Drag & drop the folder containing the files that you downloaded.
 
-⭐Usage:
+**⭐Usage:**
 1. Go to https://course.cuet.ac.bd/
 2. Login with your credentials.
 3. Click published results.
