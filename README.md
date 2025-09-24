@@ -9,6 +9,7 @@ Advanced CGPA calculator with analytics, projections for CUET students.
 5. Semester Credit Summary - Credit breakdown per semester
 6. Semester Highlights - Auto-detects best/worst performing semesters
 7. Copy to Clipboard - Copy summary data easily
+8. Download result as pdf
 
 ⭐Two versions based on your preference. More about them in the release tab.
 
