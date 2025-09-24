@@ -19,3 +19,11 @@ Advanced CGPA calculator with analytics, projections for CUET students.
 3. Open Chrome and head over to extension tab.
 4. Enable developer mode (top right corner).
 5. Drag & drop the folder containing the files that you downloaded.
+
+⭐Usage:
+1. Go to https://course.cuet.ac.bd/
+2. Login with your credentials.
+3. Click published results.
+4. Make sure all your courses are visible in one page by clicking on "records per page" and selecting 100.
+5. Click on the extension and see your analytics.
+6. Reload if necessary.
