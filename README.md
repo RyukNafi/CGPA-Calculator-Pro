@@ -1,4 +1,4 @@
-# CGPA Calculator Pro
+**# CGPA Calculator Pro**
 Advanced CGPA calculator with analytics, projections for CUET students.
 
 **⭐Key Features:**
@@ -28,3 +28,7 @@ More about them in the [*release*](https://github.com/RyukNafi/CGPA-Calculator-P
 4. Make sure all your courses are visible in one page by clicking on "records per page" and selecting 100.
 5. Click on the extension and see your analytics.
 6. Reload if necessary.
+<img width="1899" height="1080" alt="1000035120" src="https://github.com/user-attachments/assets/470b3daa-ab71-4c2a-a3e3-61b2cbf6002a" />
+<img width="1928" height="1080" alt="1000035117" src="https://github.com/user-attachments/assets/fb3ff6f2-ac4b-49ad-9981-57df65e5aa5b" />
+<img width="1824" height="1080" alt="1000035118" src="https://github.com/user-attachments/assets/5de7ddfa-ed9e-4617-aa43-b9e47d57eecd" />
+<img width="1826" height="1080" alt="1000035119" src="https://github.com/user-attachments/assets/e7642380-0be0-4aad-a749-d7432441970e" />
