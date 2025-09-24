@@ -10,7 +10,11 @@ Advanced CGPA calculator with analytics, projections for the students of CUET.
 6. Semester Highlights - Auto-detects best/worst performing semesters
 7. Copy to Clipboard - Copy summary data easily
 
-Installation Steps:
-Download all 6 files into the same folder
+⭐Two versions based on your preference. More about them in the release tab.
 
-Make sure jspdf.umd.min.js and chart.min.js are in the directory
+⭐Installation Steps:
+1. Head over to the release tab and download your desired version.
+2. Extract the content of the zip file anywhere in your PC.
+3. Open Chrome and head over to extension tab.
+4. Enable developer mode (top right corner).
+5. Drag & drop the folder containing the files that you downloaded.
