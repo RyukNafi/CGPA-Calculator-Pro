@@ -1,4 +1,4 @@
-**# CGPA Calculator Pro**
+# CGPA Calculator Pro
 Advanced CGPA calculator with analytics, projections for CUET students.
 
 **⭐Key Features:**
