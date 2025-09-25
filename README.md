@@ -3,11 +3,12 @@ A privacy-focused Chrome extension for CUET students to calculate and analyze se
 
 **✨** **Features**
 
-· Automatic CGPA calculation from result pages
-· Semester-wise analysis with performance highlights
-· GPA trend charts and grade projections
-· PDF export and summary copying
-· Dark/light themes with system preference detection
+1. Automatic CGPA calculation from result pages
+2. Semester-wise analysis with performance
+highlights
+3. GPA trend charts and grade projections
+4. PDF export and summary copying
+5. Dark/light themes with system preference detection
 
 **🚀** **Installation Steps:**
 1. Go to the [*releases*](https://github.com/RyukNafi/CGPA-Calculator-Pro/releases) tab and download the ZIP file.
